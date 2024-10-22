@@ -113,7 +113,7 @@ def COMMAND():
     elif rule == "2":
         output += "halt"
     elif rule == "3":
-        output += "return "
+        output += "print "
         ATOMIC()
     elif rule == "4":
         ASSIGN()
